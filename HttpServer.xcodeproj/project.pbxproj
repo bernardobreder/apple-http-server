@@ -1,0 +1,2148 @@
+// !$*UTF8*$!
+{
+   archiveVersion = "1";
+   objectVersion = "46";
+   objects = {
+      OBJ_1 = {
+         isa = "PBXProject";
+         attributes = {
+            LastUpgradeCheck = "9999";
+         };
+         buildConfigurationList = OBJ_2;
+         compatibilityVersion = "Xcode 3.2";
+         developmentRegion = "English";
+         hasScannedForEncodings = "0";
+         knownRegions = (
+            "en",
+         );
+         mainGroup = OBJ_5;
+         productRefGroup = OBJ_61;
+         projectDirPath = ".";
+         targets = (
+            OBJ_74,
+            OBJ_82,
+            OBJ_101,
+            OBJ_97,
+            OBJ_100,
+            OBJ_124,
+            OBJ_95,
+            OBJ_128,
+            OBJ_126,
+            OBJ_130,
+            OBJ_132,
+            OBJ_215,
+         );
+      };
+      OBJ_10 = {
+         isa = "PBXFileReference";
+         path = "Server.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_100 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_144;
+         buildPhases = (
+            OBJ_147,
+            OBJ_152,
+         );
+         dependencies = (
+         );
+         name = "StdSocket";
+         productName = "StdSocket";
+         productReference = OBJ_66;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_101 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_102;
+         buildPhases = (
+            OBJ_105,
+            OBJ_112,
+         );
+         dependencies = (
+            OBJ_123,
+            OBJ_125,
+            OBJ_127,
+            OBJ_129,
+            OBJ_131,
+            OBJ_133,
+            OBJ_134,
+            OBJ_135,
+            OBJ_136,
+            OBJ_137,
+         );
+         name = "HttpServer";
+         productName = "HttpServer";
+         productReference = OBJ_64;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_102 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_103,
+            OBJ_104,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_103 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/HttpServer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "HttpServer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "HttpServer";
+         };
+         name = "Debug";
+      };
+      OBJ_104 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/HttpServer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "HttpServer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "HttpServer";
+         };
+         name = "Release";
+      };
+      OBJ_105 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_106,
+            OBJ_107,
+            OBJ_108,
+            OBJ_109,
+            OBJ_110,
+            OBJ_111,
+         );
+      };
+      OBJ_106 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_15;
+      };
+      OBJ_107 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_16;
+      };
+      OBJ_108 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_17;
+      };
+      OBJ_109 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_18;
+      };
+      OBJ_11 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_12,
+            OBJ_13,
+         );
+         name = "StdServer";
+         path = "Sources/StdServer";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_110 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_19;
+      };
+      OBJ_111 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_20;
+      };
+      OBJ_112 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            OBJ_113,
+            OBJ_114,
+            OBJ_115,
+            OBJ_116,
+            OBJ_117,
+            OBJ_118,
+            OBJ_119,
+            OBJ_120,
+            OBJ_121,
+            OBJ_122,
+         );
+      };
+      OBJ_113 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_67;
+      };
+      OBJ_114 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_70;
+      };
+      OBJ_115 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_69;
+      };
+      OBJ_116 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_71;
+      };
+      OBJ_117 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_72;
+      };
+      OBJ_118 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_68;
+      };
+      OBJ_119 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_65;
+      };
+      OBJ_12 = {
+         isa = "PBXFileReference";
+         path = "StdClientServer.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_120 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_62;
+      };
+      OBJ_121 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_66;
+      };
+      OBJ_122 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_63;
+      };
+      OBJ_123 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_124;
+      };
+      OBJ_124 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_153;
+         buildPhases = (
+            OBJ_156,
+            OBJ_168,
+         );
+         dependencies = (
+         );
+         name = "AtomicValue";
+         productName = "AtomicValue";
+         productReference = OBJ_67;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_125 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_126;
+      };
+      OBJ_126 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_185;
+         buildPhases = (
+            OBJ_188,
+            OBJ_193,
+         );
+         dependencies = (
+         );
+         name = "Date";
+         productName = "Date";
+         productReference = OBJ_70;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_127 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_128;
+      };
+      OBJ_128 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_175;
+         buildPhases = (
+            OBJ_178,
+            OBJ_184,
+         );
+         dependencies = (
+         );
+         name = "FileSystem";
+         productName = "FileSystem";
+         productReference = OBJ_69;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_129 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_130;
+      };
+      OBJ_13 = {
+         isa = "PBXFileReference";
+         path = "StdServer.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_130 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_194;
+         buildPhases = (
+            OBJ_197,
+            OBJ_200,
+         );
+         dependencies = (
+         );
+         name = "Optional";
+         productName = "Optional";
+         productReference = OBJ_71;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_131 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_132;
+      };
+      OBJ_132 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_201;
+         buildPhases = (
+            OBJ_204,
+            OBJ_206,
+         );
+         dependencies = (
+            OBJ_211,
+            OBJ_212,
+            OBJ_213,
+            OBJ_214,
+         );
+         name = "Log";
+         productName = "Log";
+         productReference = OBJ_72;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_133 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_95;
+      };
+      OBJ_134 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_97;
+      };
+      OBJ_135 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_74;
+      };
+      OBJ_136 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_100;
+      };
+      OBJ_137 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_82;
+      };
+      OBJ_138 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_139,
+            OBJ_140,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_139 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/DataStream_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DataStream";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "DataStream";
+         };
+         name = "Debug";
+      };
+      OBJ_14 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_15,
+            OBJ_16,
+            OBJ_17,
+            OBJ_18,
+            OBJ_19,
+            OBJ_20,
+         );
+         name = "HttpServer";
+         path = "Sources/HttpServer";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_140 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/DataStream_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DataStream";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "DataStream";
+         };
+         name = "Release";
+      };
+      OBJ_141 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_142,
+         );
+      };
+      OBJ_142 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_22;
+      };
+      OBJ_143 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_144 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_145,
+            OBJ_146,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_145 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/StdSocket_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "StdSocket";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "StdSocket";
+         };
+         name = "Debug";
+      };
+      OBJ_146 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/StdSocket_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "StdSocket";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "StdSocket";
+         };
+         name = "Release";
+      };
+      OBJ_147 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_148,
+            OBJ_149,
+            OBJ_150,
+            OBJ_151,
+         );
+      };
+      OBJ_148 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_24;
+      };
+      OBJ_149 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_25;
+      };
+      OBJ_15 = {
+         isa = "PBXFileReference";
+         path = "HttpHeadDataBuffer.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_150 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_26;
+      };
+      OBJ_151 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_27;
+      };
+      OBJ_152 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_153 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_154,
+            OBJ_155,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_154 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/AtomicValue_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "AtomicValue";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "AtomicValue";
+         };
+         name = "Debug";
+      };
+      OBJ_155 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/AtomicValue_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "AtomicValue";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "AtomicValue";
+         };
+         name = "Release";
+      };
+      OBJ_156 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_157,
+            OBJ_158,
+            OBJ_159,
+            OBJ_160,
+            OBJ_161,
+            OBJ_162,
+            OBJ_163,
+            OBJ_164,
+            OBJ_165,
+            OBJ_166,
+            OBJ_167,
+         );
+      };
+      OBJ_157 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_29;
+      };
+      OBJ_158 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_30;
+      };
+      OBJ_159 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_31;
+      };
+      OBJ_16 = {
+         isa = "PBXFileReference";
+         path = "HttpHeader.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_160 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_32;
+      };
+      OBJ_161 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_33;
+      };
+      OBJ_162 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_34;
+      };
+      OBJ_163 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_35;
+      };
+      OBJ_164 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_36;
+      };
+      OBJ_165 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_37;
+      };
+      OBJ_166 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_38;
+      };
+      OBJ_167 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_39;
+      };
+      OBJ_168 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_169 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_170,
+            OBJ_171,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_17 = {
+         isa = "PBXFileReference";
+         path = "HttpRequest.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_170 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/DataBuffer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DataBuffer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "DataBuffer";
+         };
+         name = "Debug";
+      };
+      OBJ_171 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/DataBuffer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DataBuffer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "DataBuffer";
+         };
+         name = "Release";
+      };
+      OBJ_172 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_173,
+         );
+      };
+      OBJ_173 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_41;
+      };
+      OBJ_174 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_175 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_176,
+            OBJ_177,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_176 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/FileSystem_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "FileSystem";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "FileSystem";
+         };
+         name = "Debug";
+      };
+      OBJ_177 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/FileSystem_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "FileSystem";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "FileSystem";
+         };
+         name = "Release";
+      };
+      OBJ_178 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_179,
+            OBJ_180,
+            OBJ_181,
+            OBJ_182,
+            OBJ_183,
+         );
+      };
+      OBJ_179 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_43;
+      };
+      OBJ_18 = {
+         isa = "PBXFileReference";
+         path = "HttpResponse.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_180 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_44;
+      };
+      OBJ_181 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_45;
+      };
+      OBJ_182 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_46;
+      };
+      OBJ_183 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_47;
+      };
+      OBJ_184 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_185 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_186,
+            OBJ_187,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_186 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Date_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Date";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Date";
+         };
+         name = "Debug";
+      };
+      OBJ_187 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Date_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Date";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Date";
+         };
+         name = "Release";
+      };
+      OBJ_188 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_189,
+            OBJ_190,
+            OBJ_191,
+            OBJ_192,
+         );
+      };
+      OBJ_189 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_49;
+      };
+      OBJ_19 = {
+         isa = "PBXFileReference";
+         path = "HttpServer+Data.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_190 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_50;
+      };
+      OBJ_191 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_51;
+      };
+      OBJ_192 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_52;
+      };
+      OBJ_193 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_194 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_195,
+            OBJ_196,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_195 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Optional_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Optional";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Optional";
+         };
+         name = "Debug";
+      };
+      OBJ_196 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Optional_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Optional";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Optional";
+         };
+         name = "Release";
+      };
+      OBJ_197 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_198,
+            OBJ_199,
+         );
+      };
+      OBJ_198 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_54;
+      };
+      OBJ_199 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_55;
+      };
+      OBJ_2 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_3,
+            OBJ_4,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_20 = {
+         isa = "PBXFileReference";
+         path = "HttpServer.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_200 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_201 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_202,
+            OBJ_203,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_202 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Log_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Log";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Log";
+         };
+         name = "Debug";
+      };
+      OBJ_203 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Log_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Log";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Log";
+         };
+         name = "Release";
+      };
+      OBJ_204 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_205,
+         );
+      };
+      OBJ_205 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_57;
+      };
+      OBJ_206 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            OBJ_207,
+            OBJ_208,
+            OBJ_209,
+            OBJ_210,
+         );
+      };
+      OBJ_207 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_67;
+      };
+      OBJ_208 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_70;
+      };
+      OBJ_209 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_69;
+      };
+      OBJ_21 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_22,
+         );
+         name = "DataStream";
+         path = "Sources/DataStream";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_210 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_71;
+      };
+      OBJ_211 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_124;
+      };
+      OBJ_212 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_126;
+      };
+      OBJ_213 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_128;
+      };
+      OBJ_214 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_130;
+      };
+      OBJ_215 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_216;
+         buildPhases = (
+            OBJ_219,
+            OBJ_221,
+         );
+         dependencies = (
+            OBJ_233,
+            OBJ_234,
+            OBJ_235,
+            OBJ_236,
+            OBJ_237,
+            OBJ_238,
+            OBJ_239,
+            OBJ_240,
+            OBJ_241,
+            OBJ_242,
+            OBJ_243,
+         );
+         name = "HttpServerTests";
+         productName = "HttpServerTests";
+         productReference = OBJ_73;
+         productType = "com.apple.product-type.bundle.unit-test";
+      };
+      OBJ_216 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_217,
+            OBJ_218,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_217 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/HttpServerTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            TARGET_NAME = "HttpServerTests";
+         };
+         name = "Debug";
+      };
+      OBJ_218 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/HttpServerTests_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            TARGET_NAME = "HttpServerTests";
+         };
+         name = "Release";
+      };
+      OBJ_219 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_220,
+         );
+      };
+      OBJ_22 = {
+         isa = "PBXFileReference";
+         path = "DataInStream.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_220 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_60;
+      };
+      OBJ_221 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            OBJ_222,
+            OBJ_223,
+            OBJ_224,
+            OBJ_225,
+            OBJ_226,
+            OBJ_227,
+            OBJ_228,
+            OBJ_229,
+            OBJ_230,
+            OBJ_231,
+            OBJ_232,
+         );
+      };
+      OBJ_222 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_67;
+      };
+      OBJ_223 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_70;
+      };
+      OBJ_224 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_69;
+      };
+      OBJ_225 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_71;
+      };
+      OBJ_226 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_72;
+      };
+      OBJ_227 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_68;
+      };
+      OBJ_228 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_65;
+      };
+      OBJ_229 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_62;
+      };
+      OBJ_23 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_24,
+            OBJ_25,
+            OBJ_26,
+            OBJ_27,
+         );
+         name = "StdSocket";
+         path = "Sources/StdSocket";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_230 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_66;
+      };
+      OBJ_231 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_63;
+      };
+      OBJ_232 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_64;
+      };
+      OBJ_233 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_124;
+      };
+      OBJ_234 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_126;
+      };
+      OBJ_235 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_128;
+      };
+      OBJ_236 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_130;
+      };
+      OBJ_237 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_132;
+      };
+      OBJ_238 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_95;
+      };
+      OBJ_239 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_97;
+      };
+      OBJ_24 = {
+         isa = "PBXFileReference";
+         path = "StdSocket.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_240 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_74;
+      };
+      OBJ_241 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_100;
+      };
+      OBJ_242 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_82;
+      };
+      OBJ_243 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_101;
+      };
+      OBJ_25 = {
+         isa = "PBXFileReference";
+         path = "StdSocketAddress.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_26 = {
+         isa = "PBXFileReference";
+         path = "StdSocketConfig.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_27 = {
+         isa = "PBXFileReference";
+         path = "StdSocketFileDescription.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_28 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_29,
+            OBJ_30,
+            OBJ_31,
+            OBJ_32,
+            OBJ_33,
+            OBJ_34,
+            OBJ_35,
+            OBJ_36,
+            OBJ_37,
+            OBJ_38,
+            OBJ_39,
+         );
+         name = "AtomicValue";
+         path = "Sources/AtomicValue";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_29 = {
+         isa = "PBXFileReference";
+         path = "AtomicArray.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_3 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "NO";
+            DEBUG_INFORMATION_FORMAT = "dwarf";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            ENABLE_NS_ASSERTIONS = "YES";
+            GCC_OPTIMIZATION_LEVEL = "0";
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            ONLY_ACTIVE_ARCH = "YES";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode",
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator",
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE";
+            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            SWIFT_VERSION = "3.0";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Debug";
+      };
+      OBJ_30 = {
+         isa = "PBXFileReference";
+         path = "AtomicBool.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_31 = {
+         isa = "PBXFileReference";
+         path = "AtomicClosure.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_32 = {
+         isa = "PBXFileReference";
+         path = "AtomicDic.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_33 = {
+         isa = "PBXFileReference";
+         path = "AtomicInt.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_34 = {
+         isa = "PBXFileReference";
+         path = "AtomicQueue.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_35 = {
+         isa = "PBXFileReference";
+         path = "AtomicSet.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_36 = {
+         isa = "PBXFileReference";
+         path = "AtomicStack.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_37 = {
+         isa = "PBXFileReference";
+         path = "AtomicValue.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_38 = {
+         isa = "PBXFileReference";
+         path = "Lock.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_39 = {
+         isa = "PBXFileReference";
+         path = "RWLock.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_4 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_OBJC_ARC = "YES";
+            COMBINE_HIDPI_IMAGES = "YES";
+            COPY_PHASE_STRIP = "YES";
+            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+            DYLIB_INSTALL_NAME_BASE = "@rpath";
+            GCC_OPTIMIZATION_LEVEL = "s";
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_SWIFT_FLAGS = (
+               "-DXcode",
+            );
+            PRODUCT_NAME = "$(TARGET_NAME)";
+            SDKROOT = "macosx";
+            SUPPORTED_PLATFORMS = (
+               "macosx",
+               "iphoneos",
+               "iphonesimulator",
+               "appletvos",
+               "appletvsimulator",
+               "watchos",
+               "watchsimulator",
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE";
+            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+            SWIFT_VERSION = "3.0";
+            USE_HEADERMAP = "NO";
+         };
+         name = "Release";
+      };
+      OBJ_40 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_41,
+         );
+         name = "DataBuffer";
+         path = "Sources/DataBuffer";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_41 = {
+         isa = "PBXFileReference";
+         path = "DataBuffer.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_42 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_43,
+            OBJ_44,
+            OBJ_45,
+            OBJ_46,
+            OBJ_47,
+         );
+         name = "FileSystem";
+         path = "Sources/FileSystem";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_43 = {
+         isa = "PBXFileReference";
+         path = "File.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_44 = {
+         isa = "PBXFileReference";
+         path = "FileSystem.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_45 = {
+         isa = "PBXFileReference";
+         path = "Folder.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_46 = {
+         isa = "PBXFileReference";
+         path = "Resource.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_47 = {
+         isa = "PBXFileReference";
+         path = "SymbolFile.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_48 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_49,
+            OBJ_50,
+            OBJ_51,
+            OBJ_52,
+         );
+         name = "Date";
+         path = "Sources/Date";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_49 = {
+         isa = "PBXFileReference";
+         path = "Day.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_5 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_6,
+            OBJ_7,
+            OBJ_58,
+            OBJ_61,
+         );
+         path = "";
+         sourceTree = "<group>";
+      };
+      OBJ_50 = {
+         isa = "PBXFileReference";
+         path = "DayTime.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_51 = {
+         isa = "PBXFileReference";
+         path = "GMT.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_52 = {
+         isa = "PBXFileReference";
+         path = "Month.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_53 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_54,
+            OBJ_55,
+         );
+         name = "Optional";
+         path = "Sources/Optional";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_54 = {
+         isa = "PBXFileReference";
+         path = "ArrayOptional.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_55 = {
+         isa = "PBXFileReference";
+         path = "Optional.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_56 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_57,
+         );
+         name = "Log";
+         path = "Sources/Log";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_57 = {
+         isa = "PBXFileReference";
+         path = "Log.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_58 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_59,
+         );
+         name = "Tests";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_59 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_60,
+         );
+         name = "HttpServerTests";
+         path = "Tests/HttpServerTests";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_6 = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         path = "Package.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_60 = {
+         isa = "PBXFileReference";
+         path = "HttpServerTests.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_61 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_62,
+            OBJ_63,
+            OBJ_64,
+            OBJ_65,
+            OBJ_66,
+            OBJ_67,
+            OBJ_68,
+            OBJ_69,
+            OBJ_70,
+            OBJ_71,
+            OBJ_72,
+            OBJ_73,
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_62 = {
+         isa = "PBXFileReference";
+         path = "Server.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_63 = {
+         isa = "PBXFileReference";
+         path = "StdServer.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_64 = {
+         isa = "PBXFileReference";
+         path = "HttpServer.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_65 = {
+         isa = "PBXFileReference";
+         path = "DataStream.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_66 = {
+         isa = "PBXFileReference";
+         path = "StdSocket.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_67 = {
+         isa = "PBXFileReference";
+         path = "AtomicValue.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_68 = {
+         isa = "PBXFileReference";
+         path = "DataBuffer.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_69 = {
+         isa = "PBXFileReference";
+         path = "FileSystem.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_7 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_8,
+            OBJ_11,
+            OBJ_14,
+            OBJ_21,
+            OBJ_23,
+            OBJ_28,
+            OBJ_40,
+            OBJ_42,
+            OBJ_48,
+            OBJ_53,
+            OBJ_56,
+         );
+         name = "Sources";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_70 = {
+         isa = "PBXFileReference";
+         path = "Date.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_71 = {
+         isa = "PBXFileReference";
+         path = "Optional.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_72 = {
+         isa = "PBXFileReference";
+         path = "Log.framework";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_73 = {
+         isa = "PBXFileReference";
+         path = "HttpServerTests.xctest";
+         sourceTree = "BUILT_PRODUCTS_DIR";
+      };
+      OBJ_74 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_75;
+         buildPhases = (
+            OBJ_78,
+            OBJ_81,
+         );
+         dependencies = (
+         );
+         name = "Server";
+         productName = "Server";
+         productReference = OBJ_62;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_75 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_76,
+            OBJ_77,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_76 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Server_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Server";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Server";
+         };
+         name = "Debug";
+      };
+      OBJ_77 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/Server_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Server";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "Server";
+         };
+         name = "Release";
+      };
+      OBJ_78 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_79,
+            OBJ_80,
+         );
+      };
+      OBJ_79 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_9;
+      };
+      OBJ_8 = {
+         isa = "PBXGroup";
+         children = (
+            OBJ_9,
+            OBJ_10,
+         );
+         name = "Server";
+         path = "Sources/Server";
+         sourceTree = "SOURCE_ROOT";
+      };
+      OBJ_80 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_10;
+      };
+      OBJ_81 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      OBJ_82 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_83;
+         buildPhases = (
+            OBJ_86,
+            OBJ_89,
+         );
+         dependencies = (
+            OBJ_94,
+            OBJ_96,
+            OBJ_98,
+            OBJ_99,
+         );
+         name = "StdServer";
+         productName = "StdServer";
+         productReference = OBJ_63;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_83 = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            OBJ_84,
+            OBJ_85,
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Debug";
+      };
+      OBJ_84 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/StdServer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "StdServer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "StdServer";
+         };
+         name = "Debug";
+      };
+      OBJ_85 = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks",
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)",
+            );
+            INFOPLIST_FILE = "HttpServer.xcodeproj/StdServer_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)",
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "StdServer";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            TARGET_NAME = "StdServer";
+         };
+         name = "Release";
+      };
+      OBJ_86 = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            OBJ_87,
+            OBJ_88,
+         );
+      };
+      OBJ_87 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_12;
+      };
+      OBJ_88 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_13;
+      };
+      OBJ_89 = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            OBJ_90,
+            OBJ_91,
+            OBJ_92,
+            OBJ_93,
+         );
+      };
+      OBJ_9 = {
+         isa = "PBXFileReference";
+         path = "Client.swift";
+         sourceTree = "<group>";
+      };
+      OBJ_90 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_68;
+      };
+      OBJ_91 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_65;
+      };
+      OBJ_92 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_62;
+      };
+      OBJ_93 = {
+         isa = "PBXBuildFile";
+         fileRef = OBJ_66;
+      };
+      OBJ_94 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_95;
+      };
+      OBJ_95 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_169;
+         buildPhases = (
+            OBJ_172,
+            OBJ_174,
+         );
+         dependencies = (
+         );
+         name = "DataBuffer";
+         productName = "DataBuffer";
+         productReference = OBJ_68;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_96 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_97;
+      };
+      OBJ_97 = {
+         isa = "PBXNativeTarget";
+         buildConfigurationList = OBJ_138;
+         buildPhases = (
+            OBJ_141,
+            OBJ_143,
+         );
+         dependencies = (
+         );
+         name = "DataStream";
+         productName = "DataStream";
+         productReference = OBJ_65;
+         productType = "com.apple.product-type.framework";
+      };
+      OBJ_98 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_74;
+      };
+      OBJ_99 = {
+         isa = "PBXTargetDependency";
+         target = OBJ_100;
+      };
+   };
+   rootObject = OBJ_1;
+}
